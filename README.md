@@ -1,2 +1,2 @@
 # translator-demo
-Translator Example plugin
+[Translator](https://github.com/sky-min/translator) Example plugin

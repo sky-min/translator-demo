@@ -1,0 +1,5 @@
+name: TranslatorExample
+version: 1.0.0
+main: skymin\Example
+api: 4.0.0
+author: skymin
