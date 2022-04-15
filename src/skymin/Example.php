@@ -14,7 +14,7 @@ final class Example extends PluginBase implements Listener{
 	use TranslaterHolderTrait;
 
 	protected function onEnable() : void{
-		$resource = $this->getFile() . 'resources/';
+		$resource = $this->getResourceFolder();
 		$this->setDefaultLang(new Language('ko_KR', $resource . 'kor.ini'));
 		$this->getTranslater()->addLanguage(new Language('en_US', $resource . 'eng.ini'));
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
